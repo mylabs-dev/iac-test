@@ -33,6 +33,9 @@ resource "wiz_cicd_scan_policy" "mylabs_12345_all_wizcli_misconfigurations_block
       data.wiz_cloud_configuration_rules.vpc_080.cloud_configuration_rules[*].id,
       # [VPC-086] EC2 Security Group should restrict outbound traffic to specific ports
       data.wiz_cloud_configuration_rules.vpc_086.cloud_configuration_rules[*].id,
+      # [VPC-111] 123
+      data.wiz_cloud_configuration_rules.vpc_123.cloud_configuration_rules[*].id,
+
     )
   }
 }      
