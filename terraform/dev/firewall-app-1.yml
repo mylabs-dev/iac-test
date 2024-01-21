@@ -1,0 +1,10 @@
+allow_port:
+  - 443
+  - 22
+allow_host:
+  - google.com
+  - github.com
+block_port:
+  - "*"
+block_host:
+  - "*"
